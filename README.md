@@ -1,0 +1,2 @@
+# gorkodeneme
+Görko Study 
