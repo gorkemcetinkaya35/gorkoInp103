@@ -1,7 +1,7 @@
-sinav1 = int(input("1. Sınav notunu giriniz"))
-sinav2 = int(input("2.Sınav notunu giriniz"))
-istenenOrtalama = int(input("İstediğiniz ortalama nedir"))
+yas = int(input("Yaşınızı girin"))
+note = float(input("Bitirme notunuzu girin"))
 
-ort = istenenOrtalama*3
-gerekenNot = ort - (sinav1 + sinav2)
-print("Gereken not: " + str(gerekenNot))
+if yas>20 or yas<50 or note<80:
+  print("Aday uygun değil")
+else:
+  print("Aday uygun")
